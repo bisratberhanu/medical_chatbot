@@ -12,6 +12,14 @@ The chatbot uses meTTa langauge to perform context fetching and pattern mining. 
 
 If you are not familiar with MeTTa programming langauge check the [documentation](https://metta-lang.dev/)
 
+
+## How to works
+1. A user Inserts a prompts to the UI 
+2. An AI model parses the input and extract important context like name, disease, symptoms and returns it as a Json.
+3. Important imformation are fetched from the meTTa data using helper funtions
+4. The fethed data is given to the llm again to generate the response.
+ 
+
 ## Features
 
 - Answer questions about medical topics
