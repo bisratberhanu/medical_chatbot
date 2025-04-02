@@ -1,5 +1,9 @@
 # Medical Chatbot
 
+![alt text](image.png)
+
+
+
 ## Introduction
 
 This is a medical chatbot that can answer questions about various medical topics. It uses the Gemini open model to generate responses based on user input.
